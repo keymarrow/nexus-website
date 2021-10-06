@@ -82,6 +82,7 @@ html {
 body {
   font-family: var(--ff-primary);
   line-height: 1.6rem;
+  background-color: #EAEEF7;
 }
 
 /* REPEATING CLASS STYLES */
@@ -198,19 +199,23 @@ header li {
 
 header li a {
   display: block;
-  color: #20446e;
+  color: #333333;
   text-decoration: none;
 }
 
 .cta-button {
   font-family: "FuturaPTHeavy";
   font-size: 12px;
-  background-color: var(--clr-blue-accent);
-  color: white;
+  background-color: #F7AA28;
+  color: black;
   padding: 5px 20px;
   text-decoration: none;
   border-radius: 3px;
   height: fit-content;
+}
+
+.activebtn{
+  color: #F7AA28;
 }
 
 .icon {
@@ -220,41 +225,42 @@ header li a {
 /* BANNER STYLES */
 
 #banner {
+  position: relative;
   height: calc(100vh - 110px);
   max-height: 590px;
   text-align: center;
   background: center no-repeat url("/img/banner_bg.svg");
+  bottom: 7rem;
 }
 
-#banner h1 {
+#intro-text{
+  position: relative;
+  text-align: center;
+}
+
+#intro-text h1 {
+  position: relative;
   font-family: "FuturaPTHeavy";
-  font-size: 64px;
-  color: #0c294b;
-  max-width: 900px;
-  line-height: 1.25em;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+  font-size: 45px;
+  color: #000000;
+  max-width: 800px;
+  line-height: 1em;
 }
 
 #intro {
   margin-left: 15px;
-  color: var(--clr-blue-accent);
+  color: #F7AA28;
 }
 
-#supporting-text {
-  margin: 70px 0;
-}
-
-#supporting-text p {
+#intro-text p {
+  position: relative;
   font-family: "FuturaPTBook";
   font-size: 1.15rem;
   color: #4b4b4b;
+  text-align: center;
+  padding-top: 10px;
 }
 
-#supporting-text a {
-  text-decoration: none;
-  color: var(--clr-blue-accent);
-}
 
 /* OTHER SECTION */
 
@@ -266,8 +272,8 @@ header li a {
 
 .course-button a {
   font-size: 0.75rem;
-  background-color: var(--clr-blue-accent);
-  color: white;
+  background-color:#0A284C;
+  color: #ffffff;
   padding: 7px 35px;
   text-decoration: none;
   border-radius: 3px;
@@ -276,8 +282,8 @@ header li a {
 /* CTA */
 
 #cta-banner {
-  background-color: #0a284c;
-  color: #fff;
+  background-color: #F7AA28;
+  color: #000000;
   padding: 3.5rem;
 }
 
@@ -294,17 +300,31 @@ header li a {
 
 /* FOOTER */
 #footer-top {
-  background-color: #f7f7f7;
-  padding: 4rem 0;
-  background-image: url("/img/footer_bg.svg");
-  background-position: 6% 75%;
-  background-size: 15%;
-  background-repeat: no-repeat;
+  position: relative;
+  display: inline-flex;
+  padding: 2rem 0;
 }
 
+#contact-us{
+margin-left: 2rem;
+}
+
+#offices{
+  margin-left: 20rem;
+}
+
+#subscribe{
+  margin-left: 20rem;
+}
+
+#email{
+  padding: 5px 4px;
+  border: 1px solid #F7AA28;
+  border-right: 1.8rem solid #F7AA28;
+}
 #footer-bottom {
-  background-color: #0a284c;
-  color: #fff;
+  background-color: #F7AA28;
+  color: #0A284C;
   padding: 0.5rem 0;
 }
 
@@ -415,27 +435,6 @@ header li a {
 
   .icon {
     display: inline-block;
-  }
-
-  #banner {
-    padding: 3rem 1rem;
-    height: auto;
-    background: top/90% no-repeat url("/img/banner_bg.svg");
-  }
-
-  #intro-text h1 {
-    font-size: 2rem;
-    line-height: 1.4;
-  }
-
-  #supporting-text {
-    margin: 0;
-    margin-top: 0.95rem;
-  }
-
-  #supporting-text p {
-    font-size: 1.3rem;
-    line-height: 1.5;
   }
 
   #cta-banner h3 {
