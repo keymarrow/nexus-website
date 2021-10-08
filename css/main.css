@@ -28,54 +28,16 @@ html {
 
 /* FONTS */
 @font-face {
-  font-family: "FuturaPT";
-  src: url("/fonts/Futura/FuturaPTDemi.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Visby CFHeavy";
+  src: url("/fonts/VisbyCF/VisbyCF-Heavy.eot") format("embedded-opentype"),
+  url("/fonts/VisbyCF/VisbyCF-Heavy.ttf") format("truetype");
 }
 @font-face {
-  font-family: "FuturaPTHeavy";
-  src: url("/fonts/Futura/FuturaPTHeavy.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Visby CF";
+  src: url("/fonts/VisbyCF/VisbyCF-Bold.eot") format("embedded-opentype"),
+  url("/fonts/VisbyCF/VisbyCF-Bold.ttf") format("truetype");
 }
-@font-face {
-  font-family: "FuturaPTBook";
-  src: url("/fonts/Futura/FuturaPTBook.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "FuturaPTBold";
-  src: url("/fonts/Futura/FuturaPTBold.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "FuturaPTMedium";
-  src: url("/fonts/Futura/FuturaPTMedium.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "FuturaPTLight";
-  src: url("/fonts/Futura/FuturaPTLight.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "visby CF";
-  src: url("/fonts/Visby CF/VisbyCF-Bold.eot") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+
 
 /* WRAPPER */
 
@@ -87,7 +49,7 @@ html {
 }
 
 body {
-  font-family: var(--ff-primary);
+  font-family: "Visby CF", sans-serif;
   line-height: 1.6rem;
   background-color: #EAEEF7;
 }
@@ -211,7 +173,7 @@ header li a {
 }
 
 .cta-button {
-  font-family: "FuturaPTHeavy";
+  font-family: "Visby CF";
   font-size: 12px;
   background-color: #F7AA28;
   color: black;
@@ -243,14 +205,14 @@ header li a {
 #intro-text{
   position: relative;
   text-align: center;
+  font-family: "Visby CFHeavy";
 }
 
 #intro-text h1 {
   position: relative;
-  font-family: "FuturaPTHeavy";
   font-size: 45px;
   color: #000000;
-  max-width: 800px;
+  max-width: 900px;
   line-height: 1.4em;
 }
 
@@ -261,7 +223,7 @@ header li a {
 
 #intro-text p {
   position: relative;
-  font-family: "FuturaPTBook";
+  font-family: "Visby CF";
   font-size: 1.15rem;
   color: #4b4b4b;
   text-align: center;
@@ -300,7 +262,7 @@ header li a {
 }
 
 #cta-banner p {
-  font-family: "FuturaPTBook";
+  font-family: "Visby CF";
   font-size: 1rem;
   padding-bottom: 1.5rem;
 }
