@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368" height="207" viewBox="0 0 368 207">
+  <defs>
+    <filter id="Rectangle_694" x="0" y="0" width="368" height="207" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#2a3547" flood-opacity="0.224"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_163071" data-name="Group 163071" transform="translate(6 -364)">
+    <g transform="matrix(1, 0, 0, 1, -6, 364)" filter="url(#Rectangle_694)">
+      <g id="Rectangle_694-2" data-name="Rectangle 694" transform="translate(26 24)" fill="#fff" stroke="#f1f3f7" stroke-width="1">
+        <rect width="308" height="147" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="307" height="146" rx="4.5" fill="none"/>
+      </g>
+    </g>
+    <text id="_3" data-name="3" transform="translate(272 477)" fill="#e4e4e4" font-size="68" font-family="VisbyCF-ExtraBold, Visby CF" font-weight="800"><tspan x="-20" y="0">3</tspan></text>
+    <text id="Quantity" transform="translate(252 498)" fill="#707070" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Quantity</tspan></text>
+    <text id="_450_000_" data-name="450,000/=" transform="translate(61 476)" fill="#4a3a11" font-size="18" font-family="VisbyCF-ExtraBold, Visby CF" font-weight="800"><tspan x="0" y="0">450,000/=</tspan></text>
+    <text id="_20_Discount" data-name="20% Discount" transform="translate(62 494)" fill="#2ba64b" font-size="10" font-family="VisbyCF-ExtraBold, Visby CF" font-weight="800"><tspan x="0" y="0">20%</tspan><tspan y="0" xml:space="preserve" fill="#414040" font-family="VisbyCF-MediumOblique, Visby CF" font-weight="500" font-style="oblique"> Discount</tspan></text>
+    <text id="Oil_Refill" data-name="Oil Refill" transform="translate(49 424)" fill="#191304" font-size="20" font-family="VisbyCF-ExtraBold, Visby CF" font-weight="800"><tspan x="0" y="0">Oil Refill</tspan></text>
+    <text id="Cleaning_and_put_new_oil_in_car" data-name="Cleaning and put new oil in car" transform="translate(50 441)" fill="#707070" font-size="11" font-family="VisbyCF-DemiBold, Visby CF" font-weight="300"><tspan x="0" y="0">Cleaning and put new oil in car</tspan></text>
+    <line id="Line_118" data-name="Line 118" y2="32.564" transform="translate(53.029 461.966)" fill="none" stroke="#f8c753" stroke-linecap="round" stroke-width="2"/>
+    <g id="Group_10809" data-name="Group 10809" transform="translate(305.13 396.473)">
+      <path id="Path_10325" data-name="Path 10325" d="M10.953,4a6.953,6.953,0,1,0,6.953,6.953A6.953,6.953,0,0,0,10.953,4Zm2.727,8.86a.579.579,0,1,1-.819.819l-1.908-1.908L9.045,13.68a.579.579,0,1,1-.819-.819l1.908-1.908L8.225,9.045a.579.579,0,1,1,.819-.819l1.908,1.908L12.86,8.225a.579.579,0,1,1,.819.819l-1.908,1.908Z" transform="translate(-4 -4)" fill="#e4e4e4"/>
+    </g>
+  </g>
+</svg>

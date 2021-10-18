@@ -21,3 +21,10 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+// Accordion Functionality
+document.querySelectorAll(".accordion").forEach(acc => {
+  acc.addEventListener("click", function() {
+    acc.classList.toggle("open");
+  });
+});
