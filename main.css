@@ -101,6 +101,10 @@ header li a {
   text-decoration: none;
 }
 
+.iconlogo {
+  width: auto;
+}
+
 .cta-button {
   font-family: "Visby CF";
   font-size: 12px;
