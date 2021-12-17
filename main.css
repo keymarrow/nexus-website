@@ -29,13 +29,13 @@ html {
 /* FONTS */
 @font-face {
   font-family: "Visby CFHeavy";
-  src: url("/fonts/VisbyCF/VisbyCF-Heavy.eot") format("embedded-opentype"),
-  url("/fonts/VisbyCF/VisbyCF-Heavy.ttf") format("truetype");
+  src: url("fonts/VisbyCF/VisbyCF-Heavy.eot") format("embedded-opentype"),
+  url("fonts/VisbyCF/VisbyCF-Heavy.ttf") format("truetype");
 }
 @font-face {
   font-family: "Visby CF";
-  src: url("/fonts/VisbyCF/VisbyCF-Bold.eot") format("embedded-opentype"),
-  url("/fonts/VisbyCF/VisbyCF-Bold.ttf") format("truetype");
+  src: url("fonts/VisbyCF/VisbyCF-Bold.eot") format("embedded-opentype"),
+  url("fonts/VisbyCF/VisbyCF-Bold.ttf") format("truetype");
 }
 
 
